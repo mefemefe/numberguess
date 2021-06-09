@@ -26,7 +26,7 @@ while tries >0:
             if tries == 2:
                 print("NUMBER ENDS IN "+str(number)[len(str(number))-1])
             tries -= 1
-    except:
+    except Exception:
         print("NOT A NUMBER")
         continue
 print("***    NUMBER WAS "+str(number)+"    ***")
